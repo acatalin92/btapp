@@ -1,0 +1,41 @@
+.filters-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.filters-bar .section {
+  display: flex;
+  align-items: center;
+}
+
+.filters-bar .section:not(:last-child) {
+  margin-right: 30px;
+}
+
+.filters-bar .section .label {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #333;
+  user-select: none;
+}
+
+.filters-bar .section input {
+  box-sizing: border-box;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  color: #000;
+  line-height: 16px;
+  height: 30px;
+}
+
+.filters-bar .section input.month {
+  width: 45px;
+}
+
+.filters-bar .section input.year {
+  width: 70px;
+}

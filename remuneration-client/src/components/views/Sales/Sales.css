@@ -1,0 +1,37 @@
+.edit-entry-buttons {
+  position: absolute;
+  left: 0;
+  top: -4px;
+  height: 38px;
+}
+
+.edit-entry-buttons .edit-entry-trigger, .edit-entry-buttons .edit-entry-save {
+  height: 38px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.edit-entry-buttons .edit-entry-save {
+  margin-left: 20px;
+  background-color: #009595;
+  border-color: transparent;
+}
+
+.edit-entry-buttons .edit-entry-save:not(:disabled) {
+  color: #fff;
+}
+
+.edit-entry-buttons .edit-entry-save:hover {
+  background-color: #02b6b6;
+  border-color: transparent;
+}
+
+.entry-editor-container {
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.sales .table .cell {
+  width: 20% !important;
+}

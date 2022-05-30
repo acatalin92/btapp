@@ -1,0 +1,10 @@
+.table .head {
+  background-color: #009595;
+}
+
+.table .head .cell {
+  padding: 10px !important;
+  font-weight: bold;
+  color: #fff;
+  white-space: nowrap;
+}

@@ -1,0 +1,3 @@
+.table .body .row:nth-of-type(even) {
+  background-color: #ebf4f4;
+}

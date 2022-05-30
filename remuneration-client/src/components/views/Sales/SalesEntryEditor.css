@@ -1,0 +1,11 @@
+.sales-entry-editor {
+  width: 100%;
+}
+
+.sales-entry-editor .table .head {
+  background-color: #667575;
+}
+
+.sales-entry-editor .table .cell input {
+  width: 60px;
+}

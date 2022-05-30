@@ -1,0 +1,26 @@
+.view .overlay .loading, .view .overlay .no-results {
+  margin-top: -10vh;
+}
+
+.view .overlay .loading .loader .image {
+  height: 155px;
+  width: auto;
+}
+
+.view .overlay .no-results .image {
+  width: 155px;
+  height: auto;
+}
+
+.view .overlay .no-results .text {
+  font-size: 20px;
+}
+
+.view.empty > *:not([data-persistent], .overlay) {
+  display: none;
+}
+
+.view [data-persistent] {
+  position: relative;
+  z-index: 100;
+}

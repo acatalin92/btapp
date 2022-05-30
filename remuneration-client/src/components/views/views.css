@@ -1,0 +1,13 @@
+.filters-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  padding: 0;
+  overflow: hidden;
+  padding-bottom: 10px;
+}

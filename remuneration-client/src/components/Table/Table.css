@@ -1,0 +1,6 @@
+.table {
+  width: 100%;
+  box-sizing: border-box;
+  cursor: default;
+  background-color: #fff;
+}

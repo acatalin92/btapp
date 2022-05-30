@@ -1,0 +1,44 @@
+.button-link {
+  outline: none;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.button-link.disabled, button:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #f1f1f1;
+  transition: border 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  padding: 0 15px;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  line-height: 16px;
+  color: #111;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+}
+
+button:disabled {
+  background-color: #f2f2f2 !important;
+}
+
+.button:not(.active):hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  border: 1px solid #e6e6e6;
+}
+
+.button.active {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+}

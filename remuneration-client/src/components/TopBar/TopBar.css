@@ -1,0 +1,27 @@
+.top-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-bar .logo-container {
+  margin-right: 40px;
+}
+
+.top-bar .navigation-container {
+  display: flex;
+  justify-content: right;
+  flex-grow: 1;
+  max-width: 500px;
+}
+
+.top-bar .navigation-container .navigation-item:not(:first-child) {
+  margin-left: 15px;
+}
+
+.top-bar .navigation-container .navigation-item button {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
